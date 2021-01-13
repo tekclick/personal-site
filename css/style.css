@@ -1,0 +1,77 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0px auto;
+  padding: 30px;
+  max-width: 34em;
+  font-family: 'Crimson Text', serif;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #333;
+}
+p {
+  margin: 0 0 1.8em 0;
+}
+a, a:visited {
+  color: #25b;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #fff;
+  box-shadow: 0 0 8px #fff;
+  border-radius: 4px;
+}
+.em {
+  display: block;
+  width: 1.4em;
+  height: 1.4em;
+  margin-bottom: 0.3em;
+}
+
+footer p {
+  margin-top: 6em;
+  padding-top: 1em;
+  border-top: 1px solid #999;
+  opacity: 0.3;
+  font-size: 0.8rem;
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+    padding: 80px 34px 20px 34px;
+  }
+  .em {
+    float: left;
+    margin-top: 0.1em;
+  }
+  p {
+    margin-left: 3.4em;
+  }
+  footer {
+    margin-left: 0.6em;
+  }
+}
+
+
+.sudo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 200px;
+  width: 200px;
+  background-size: 100% 100%;
+
+  display: block;
+background: url(../images/photo-notwinked.png) no-repeat;
+}
+
+.sudo:hover {
+background: url(../images/photo-winked.png) no-repeat;
+
+}
+
+
+
+
+
+
